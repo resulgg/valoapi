@@ -1,0 +1,19 @@
+{
+  "name": "valorantapp",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "type": "module",
+  "browserslist": "> 0.25%, last 2 version, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir ./dist/exported"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}
