@@ -5,10 +5,10 @@ import weapons from "./views/weapon";
 import map from "./views/map.js";
 
 
-model.getAgentDetails("e370fa57-4757-3604-3648-499e1f642d3f");
-
 const controlAgent = async () => {
     await model.getAgents();
+console.log(model.state.agent)
+
   agents.render(model.state.agent);
 }
 
@@ -29,6 +29,7 @@ const controlAgentDetails = async (id) => {
 }
 
 controlAgent();
+
 const init = () => {
     agents.addEventHandler(controlAgent);
     weapons.addEventHandler(controlWeapon);

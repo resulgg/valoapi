@@ -16,7 +16,7 @@
         transform: scale(1);
         transition: all .2s ease;
         &:hover{
-            background-color: $nav-border;
+            background-color: rgb(156, 145, 250);
             transform: scale(1.03);
         }
         .agent-image{
